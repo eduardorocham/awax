@@ -431,3 +431,110 @@ header {
 .section-team-social a:hover {
     background-color: #B28756;
 }
+
+.map {
+    background-image: url('../images/mapa.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.section-maparea {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.maparea-info {
+    width: 50%;
+    padding: 30px;
+    background-color: white;
+    color: #999;
+}
+
+.maparea-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.maparea-info-item-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #999;
+    padding: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.maparea-info-item-img img {
+    width: 15px;
+    height: auto;
+}
+
+footer {
+    background-color: black;
+    padding: 30px 0;
+}
+
+.footer--area {
+    max-width: 1140px;
+    display: flex;
+    margin: auto;
+}
+
+.footer--item {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #555;
+}
+
+.area2 {
+    color: #999;
+}
+
+.nullmarg {
+    margin: 0;
+}
+
+.area3 form {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.area3 input[type=email] {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #999;
+    text-align: center;
+}
+
+@media (min-width:450px) and (max-width:800px) {
+    nav {
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+}
